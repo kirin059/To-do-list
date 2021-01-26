@@ -17,7 +17,7 @@ body {
     background-color: #fafafa;
     border: 1px solid darkblue;
     text-align: center;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 h1 {
     margin: 30px;
@@ -32,7 +32,7 @@ h1 {
     padding: 10px;
     text-align: center;
 }
-#input { 
+#input {
     width: 80%;
     height: 30px;
     border: 2px solid rgb(54, 52, 50);
@@ -47,13 +47,13 @@ h1 {
     height: 30px;
     color: #fafafa;
     background-color: #00b0ff;
-    border: 2px solid  #00b0ff;
+    border: 2px solid #00b0ff;
     border-radius: 4px;
     cursor: pointer;
 }
 #btn:hover {
     background-color: #1565c0;
-    border: 2px solid  #1565c0;
+    border: 2px solid #1565c0;
 }
 
 .addList {
@@ -66,7 +66,7 @@ h1 {
     overflow-y: auto;
 }
 
-.addList li{
+.addList li {
     display: flex;
     justify-content: space-between;
     max-width: 420px;
@@ -77,30 +77,41 @@ h1 {
     align-items: center;
     background-color: #fafafa;
     border-radius: 4px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-
 /* js 생성 태그 */
-.checkBtn, .delBtn  {
+.checkBtn,
+.delBtn {
     width: 20px;
     height: 20px;
+    padding: 0;
     background-color: #fafafa;
     opacity: 0.4;
     border: none;
     cursor: pointer;
 }
 
-.delBtn:hover, .checkBtn:hover {
+.delBtn:hover,
+.checkBtn:hover {
     opacity: 1;
 }
 
-.checkBtn img, .delBtn img {
+.checkBtn img,
+.delBtn img {
     width: 20px;
     height: 20px;
+    padding: 0;
 }
 
 .checked {
     text-decoration: line-through;
     background-color: #e0e0e0;
+}
+
+.delete {
+    display: none;
+}
+.redLine {
+    border: 2px solid red;
 }
