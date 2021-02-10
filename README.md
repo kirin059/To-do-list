@@ -21,4 +21,8 @@ del 버튼 누르면 리스트가 삭제되는 함수 작성
     });
   // insertBefore를 통해 가장 최근에 생성된 li는 가장 위(=index가 0번째)에 위치한다
   // 따라서 delBtn[0]을 해주면 새롭게 생성될 때마다 eventListener가 적용된다(=모두 적용)
+  
+  // 이벤트 리스너 타겟 객체(=e)의 path를 통해 위치를 지정한다.
+  // e.path[4] = addList
+  // e.path[3] = li
 ```
