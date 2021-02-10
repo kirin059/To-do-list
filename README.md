@@ -1,4 +1,4 @@
-# to-do-list 만들기(1) 
+# To-Do-List 만들기(1) 
 ## javascript
 ---
 
